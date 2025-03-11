@@ -14,7 +14,7 @@ jobs:
     - run:
         name: Detect Programming Languages
         command: |
-          chmod +x .circleci/detect_languages.sh
+          chmod +x detect_languages.sh
           .circleci/detect_languages.sh
 
 workflows:
